@@ -4,10 +4,10 @@ import org.openqa.selenium.By;
 
 public class LoginPage extends BasePage{
     public String url = "https://auth.wikimedia.org/enwiki/wiki/Special:UserLogin";
-    public String username = "Automation1230";
-    public String password = "Automation%4321";
+    public String username = "Ashikujjaman.md";
+    public String password = "ashik2025";
 
-    public String email= "hadoceg714@eduhed.com";
+    public String email= "satana5515@fenexy.com";
 
     public String error_text = "Incorrect username or password entered. Please try again.";
     public By username_input = By.xpath("//input[@id='wpName1']");

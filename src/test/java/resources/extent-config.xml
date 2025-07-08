@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Document title shown on browser tab -->
+        <documentTitle>Cucumber_testing</documentTitle>
+
+        <!-- Report name shown on the report header -->
+        <reportName>Test Report</reportName>
+
+        <!-- Encoding (default UTF-8) -->
+        <encoding>utf-8</encoding>
+
+        <!-- Theme options: STANDARD / DARK -->
+        <theme>DARK</theme>
+
+        <protocol>http</protocol>
+        <!-- Timestamp format -->
+        <!--<timeStampFormat>dd/MM/yyyy hh:mm:ss a</timeStampFormat>-->
+
+        <!-- Enable chart -->
+        <chartVisibilityOnOpen>true</chartVisibilityOnOpen>
+
+        <!-- Add custom CSS (optional) -->
+        <!-- <css>body { font-family: Calibri; }</css> -->
+        <testViewChartLocation>bottom</testViewChartLocation>
+        <!-- Add custom JS (optional) -->
+        <script>
+
+                <![CDATA[
+                $(document).ready(function(){
+                });
+                ]]>
+        </script>
+
+        <style>
+            <![CDATA[
+]]>
+        </style>
+        <!-- <js>document.title = 'Custom Report';</js> -->
+    </configuration>
+</extentreports>

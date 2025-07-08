@@ -14,7 +14,7 @@ public class MainPage extends BasePage{
     public By login_btn = By.xpath("//a[@data-mw='interface']//span[contains(text(),'Log in')]");
     public By sidebar = By.xpath("//input[@id='vector-main-menu-dropdown-checkbox']");
 
-    public By username = By.xpath("(//span[contains(text(),'Automation1230')])[1]");
+    public By username = By.xpath("(//span[contains(text(),'Ashikujjaman.md')])[1]");
     public By user_icon = By.xpath("//div[@id='vector-user-links-dropdown']");
 
 }
